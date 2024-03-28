@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.button-primary {
+  color: #000000;
+  background-color: color(display-p3 1.000000 0.670588 0.376471 / 1.000000);
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.button-primary:hover { 
+  background-color: color(display-p3 1.000000 0.670588 0.501961 / 1.000000)
+}
