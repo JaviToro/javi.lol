@@ -121,6 +121,26 @@ export default function Home() {
         <section className="flex flex-col gap-6">
           <h2 className="text-xl font-bold">My experience</h2>
           <ol className="flex flex-col gap-6">
+          <li>
+              <a className="flex flex-row items-center gap-4">
+                <div className="w-fit outline outline-1 outline-gray-300 dark:outline-gray-700 rounded-xl drop-shadow-md">
+                  <Image
+                    src="/hiberus.jpeg"
+                    width={60}
+                    height={60}
+                    alt="Hiberus logo."
+                    className="rounded-xl border-10 border-red-900 border-solid"
+                  ></Image>
+                </div>
+                <div>
+                  <p className="text-sm font-mono text-gray-600 dark:text-gray-400">
+                    April 2025 - Present
+                  </p>
+                  <p className="font-medium">Hiberus</p>
+                  <p className="text-sm">Software Engineer</p>
+                </div>
+              </a>
+            </li>
             <li>
               <a className="flex flex-row items-center gap-4">
                 <div className="w-fit outline outline-1 outline-gray-300 dark:outline-gray-700 rounded-xl drop-shadow-md">
@@ -134,7 +154,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-mono text-gray-600 dark:text-gray-400">
-                    Oct 2023 - Present
+                    Oct 2023 - March 2025
                   </p>
                   <p className="font-medium">Pathmonk</p>
                   <p className="text-sm">Software Engineer</p>

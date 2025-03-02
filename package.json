@@ -1,6 +1,7 @@
+
 {
   "name": "javi.lol",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +12,7 @@
   "dependencies": {
     "@tabler/icons-react": "^3.1.0",
     "dot-beat-time": "^1.2.1",
-    "next": "14.1.4",
+    "next": "^14.2.4",
     "react": "^18",
     "react-dom": "^18"
   },
